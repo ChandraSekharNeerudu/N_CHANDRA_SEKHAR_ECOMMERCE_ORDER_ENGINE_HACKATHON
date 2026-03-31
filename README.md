@@ -18,10 +18,11 @@ This project simulates the backend engine of a large-scale e-commerce platform (
 
 ```
 src/main/java/com/ecommerce/
-├── models/          # Pure data models (Product, Cart, Order, Event, AuditLog, ...)
-├── services/        # Business logic (ProductService, CartService, OrderService, ...)
+├── Model/          # Pure data models (Product, Cart, Order, Event, AuditLog, ...)
+├── Service/        # Business logic (ProductService, CartService, OrderService, ...)
 ├── engine/          # Core engines (StateMachine, ConcurrencyEngine, ServiceRegistry)
-├── cli/             # CLI input helper
+├── utils           #which Stores all Utility Classes
+├── UI/             # CLI input helper
 └── Main.java        # Entry point & menu
 ```
 
